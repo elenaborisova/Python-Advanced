@@ -120,7 +120,7 @@ Initially, you have a tank of infinite capacity carrying no petrol. You can star
 Calculate the first point from where the truck will be able to complete the circle. Consider that the truck will stop at
 each of the petrol pumps. The truck will move one kilometer for each liter of the petrol.
 
-*Input*
+*Input*  
  The first line will contain the value of N  
  The next N lines will contain a pair of integers each, i.e. the amount of petrol that petrol pump will give and
 the distance between that petrol pump and the next petrol pump
@@ -128,7 +128,7 @@ the distance between that petrol pump and the next petrol pump
 *Output*  
  An integer which will be the smallest index of the petrol pump from which we can start the tour
 
-*Constraints*
+*Constraints*  
  1 ≤ N ≤ 1000001  
  1 ≤ Amount of petrol, Distance ≤ 1000000000
 
@@ -182,11 +182,11 @@ to take it, it should be queued at the end of the line again.
 
 The robots are standing on the line in the order of their appearance.
 
-*Input*
+*Input*  
  On the first line, you will get the names of the robots and their processing times in format "robotName-
 processTime;robotName-processTime;robotName-processTime"  
  On the second line, you will get the starting time in format "hh:mm:ss"  
- Next, until the "End" command, you will get a product on each line.
+ Next, until the "End" command, you will get a product on each line.  
 
 *Examples* 
 
@@ -220,17 +220,17 @@ free window ends, it will get hit at the first character that is still in the cr
    A car – a string containing the model of the car, or  
    The command &quot;green&quot; which indicates the start of a green light cycle
 
-A green light cycle goes as follows:
- During the green light cars will enter and exit the crossroads one by one
- During the free window cars will only exit the crossroads
+A green light cycle goes as follows:  
+ During the green light cars will enter and exit the crossroads one by one  
+ During the free window cars will only exit the crossroads  
 
 *Output*  
- If a crash happens, end the program and print:
-"A crash happened!"
+ If a crash happens, end the program and print:  
+"A crash happened!"  
 "{car} was hit at {character_hit}."  
- If everything goes smoothly and you receive an "END" command, print:
-"Everyone is safe."
-"{total_cars_passed} total cars passed the crossroads."
+ If everything goes smoothly and you receive an "END" command, print:  
+"Everyone is safe."  
+"{total_cars_passed} total cars passed the crossroads."  
 
 *Constraints*  
  The input will be within the constaints specified above and will always be valid. There is no need to check it
