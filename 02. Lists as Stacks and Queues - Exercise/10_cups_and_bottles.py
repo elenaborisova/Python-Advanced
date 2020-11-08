@@ -18,10 +18,6 @@ while cups and bottles:
                 curr_bottle -= curr_cup
                 curr_cup = 0
 
-        wasted_water += curr_bottle - curr_cup
-        cups.popleft()
-        continue
-
     wasted_water += curr_bottle - curr_cup
     curr_cup = cups.popleft()
 
