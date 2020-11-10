@@ -2,7 +2,7 @@ from collections import deque
 
 bullet_price = int(input())
 gun_barrel_size = int(input())
-bullets = deque(list(map(int, input().split())))
+bullets = list(map(int, input().split()))
 locks = deque(list(map(int, input().split())))
 intelligence_value = int(input())
 bullets_used = 0
