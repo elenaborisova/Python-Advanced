@@ -1,7 +1,7 @@
 from collections import deque
 
 cups = deque(list(map(int, input().split())))
-bottles = deque(list(map(int, input().split())))
+bottles = list(map(int, input().split()))
 wasted_water = 0
 
 
