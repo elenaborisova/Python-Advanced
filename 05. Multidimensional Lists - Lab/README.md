@@ -58,11 +58,11 @@ Write a program that reads N, a number representing the rows and cols of a matri
 ## **05.	Square with Maximum Sum -** [Solution](https://github.com/elenaborisova/Python-Advanced/blob/main/05.%20Multidimensional%20Lists%20-%20Lab/05_square_with_maximum_sum.py)
 Write a program that read a matrix from console. Find biggest sum of 2x2 submatrix and print it to console.
 
-*Input*
-On first line you will get matrix sizes in format rows, columns.   
+*Input*  
+On first line you will get matrix sizes in format rows, columns.    
 One next rows lines you will get elements for each column separated with coma.  
 
-*Output*
+*Output*  
 Print biggest top-left square, which you find and sum of its elements.
 
 *Examples*
