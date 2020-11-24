@@ -1,9 +1,7 @@
 ## **01.	File Opener -** [Solution](https://github.com/elenaborisova/Python-Advanced/blob/main/11.%20File%20Handling%20-%20Lab/01_file_opener.py)
 You are given a file called text.txt with the following text:
 
-"""This is some random line
-This is the second line
-And this is the third line"""
+"""This is some random line<br>This is the second line<br>And this is the third line"""
 
 Create program that opens the file. If the file is found, print 'File found'. If the file is not found, print 'File not found'
 
@@ -11,13 +9,7 @@ Create program that opens the file. If the file is found, print 'File found'. If
 ## **02.	File Reader -** [Solution](https://github.com/elenaborisova/Python-Advanced/blob/main/11.%20File%20Handling%20-%20Lab/02_file_reader.py)
 You are given a file called numbers.txt with the following content:
 
-"""
-1
-2
-3
-4
-5
-"""
+"""<br>1<br>2<br>3<br>4<br>5<br>"""
 
 Create a program that reads the numbers from the file. Print on the console the sum of those numbers.
 
