@@ -11,6 +11,8 @@ You are provided with the following code:
             result /= number
     print(result)
     
+This code raises many errors. Your job is to fix them.   
+ 
 *Input:*
 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
 
